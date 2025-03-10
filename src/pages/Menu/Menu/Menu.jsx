@@ -1,7 +1,11 @@
+import Cover from "../../Shared/Cover/Cover";
+import menuImg from "../../../assets/menu/banner3.jpg";
+
 const Menu = () => {
     return (
         <div>
-            <h2>This menu page</h2>
+            <Cover img={menuImg} title={"Our menu"}></Cover>
+            
         </div>
     );
 };
